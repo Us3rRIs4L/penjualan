@@ -13,7 +13,7 @@
         @include('components.fragments.sidebar')
 
         <!-- Main content -->
-        <main class="flex-1 flex flex-col">
+        <main class="flex-1 flex flex-col ml-64">
             <!-- Navbar -->
             @include('components.fragments.navbar')
 

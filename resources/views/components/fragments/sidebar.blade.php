@@ -1,4 +1,4 @@
-<div class="flex flex-col min-h-screen w-64 bg-gray-100 shadow-lg">
+<div class="flex flex-col min-h-screen w-64 bg-gray-100 shadow-lg fixed top-0 left-0 h-full">
     <!-- Header -->
     <div class="flex items-center justify-center p-4 h-16 bg-gradient-to-b from-teal-100 to-cyan-100 shadow-lg">
         <h2 class="text-xl font-bold text-cyan-700">The Dashboard</h2>
