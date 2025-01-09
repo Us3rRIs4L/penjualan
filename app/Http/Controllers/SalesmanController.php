@@ -21,7 +21,7 @@ class SalesmanController extends Controller
      */
     public function create()
     {
-        return view('salesmen.create');
+        return view('salesman.create');
     }
 
     /**

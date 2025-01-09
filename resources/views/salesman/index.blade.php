@@ -52,6 +52,12 @@
                 </div>
             </div>
         </div>
+        <!-- Add Sales Button -->
+        <div class="mt-4">
+            <a href="{{ route('salesman.create') }}" class="inline-flex items-center px-4 py-2 border border-transparent rounded-md font-semibold text-xs text-white bg-blue-600 hover:bg-blue-700">
+                Add Sales
+            </a>
+        </div>
     </div>
 </div>
 @endsection

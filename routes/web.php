@@ -25,3 +25,5 @@ Route::get('/salesman', [SalesmanController::class, 'index'])->name('salesman');
 Route::get('/salesman/{salesman}/edit', [SalesmanController::class, 'edit'])->name('salesman.edit');
 
 Route::get('/salesman/{salesman}/destroy', [SalesmanController::class, 'destyoy'])->name('salesman.destroy');
+
+Route::get('/salesman/create', [SalesmanController::class, 'create'])->name('salesman.create');
